@@ -21,8 +21,9 @@
     "plugin:@typescript-eslint/recommended",
     "next",
     "next/core-web-vitals",
-    "prettier/@typescript-eslint",  //eslint-config-prettier(disable eslint typescript formatting conflict with prettier)
-    "plugin:prettier/recommended"   //eslint-plugin-prettier(eslint formatting using prettier)
+    // "prettier/@typescript-eslint",  //eslint-config-prettier(disable eslint typescript formatting conflict with prettier)
+    // "plugin:prettier/recommended"   //eslint-plugin-prettier(eslint formatting using prettier)
+    "prettier"
   ],
   "plugins": [
     "react",

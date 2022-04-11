@@ -21,10 +21,17 @@ const Home: NextPage = () => {
           Get started by editing <code className={styles.code}>pages/index.tsx</code>
         </p>
 
-        <div className="-mt-10">
+        {/* tailwind-daisy area */}
+        <div className="-mt-10 text-center">
           <h1 className="text-3xl font-bold underline">Hello Next.js world!!</h1>
           <h2>
-            <Link href="/about">Link about</Link> / <a href="./about">Anker about</a>
+            <Link href="/about" passHref>
+              <button className="btn btn-primary">Link about</button>
+            </Link>{' '}
+            /{' '}
+            <a href="./about">
+              <button className="btn btn-primary rounded-full">Anker about</button>
+            </a>
           </h2>
         </div>
 

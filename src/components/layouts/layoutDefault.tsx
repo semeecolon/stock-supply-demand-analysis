@@ -18,7 +18,9 @@ export default function LayoutDefault({ children, title, keywords, description }
         <meta name="keywords" content={keywords} />
       </Head>
       <MyHeader />
-      Default 레이아웃
+      <div className="text-center text-green-600">
+        <h1 className="text-3xl font-bold underline">{title}</h1>
+      </div>
       <main className="">{children}</main>
       <MyFooter />
     </>

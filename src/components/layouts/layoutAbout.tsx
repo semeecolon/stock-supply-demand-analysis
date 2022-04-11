@@ -27,7 +27,7 @@ const LayoutAbout = ({ children, title }: Props) => (
       <title>{title}</title>
     </Head>
     <div className="text-center text-yellow-800">
-      <h1 className="text-3xl font-bold underline">{title}</h1>
+      <h1 className="text-2xl font-bold underline">{title}</h1>
     </div>
     <main className="">{children}</main>
   </div>

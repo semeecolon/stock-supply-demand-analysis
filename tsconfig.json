@@ -17,11 +17,11 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-    "@/api/*": ["src/pages/api/*"],
-    "@/components/*": ["src/components/*"],
-    "@/layouts/*": ["src/components/layouts/*"],
-    "@/styles/*": ["styles/*"]
-    // "@/lib/*": ["src/lib/*"]
+      "@/api/*": ["src/pages/api/*"],
+      "@/components/*": ["src/components/*"],
+      "@/layouts/*": ["src/components/layouts/*"],
+      "@/styles/*": ["styles/*"]
+      // "@/lib/*": ["src/lib/*"]
 		}
     // "typeRoots": ["./node_modules/@types, ./@types"],
     // "declaration": true,

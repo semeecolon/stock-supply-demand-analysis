@@ -3,17 +3,13 @@ import Head from 'next/head';
 import MyHeader from '@/components/header';
 import MyFooter from '@/components/footer';
 
-export default function LayoutDefault({
-  children,
-  description,
-  keywords,
-  title
-}: {
-  children: ReactElement;
-  description?: string;
-  keywords?: string;
+type Props = {
+  children?: ReactElement;
   title?: string;
-}) {
+  keywords?: string;
+  description?: string;
+};
+export default function LayoutDefault({ children, title, keywords, description }: Props) {
   return (
     <>
       <Head>

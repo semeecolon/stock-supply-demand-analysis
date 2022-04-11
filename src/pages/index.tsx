@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,9 @@ const Home: NextPage = () => {
 
         <div className="-mt-10">
           <h1 className="text-3xl font-bold underline">Hello Next.js world!!</h1>
+          <h2>
+            <Link href="/about">Link about</Link> / <a href="./about">Anker about</a>
+          </h2>
         </div>
 
         <div className={styles.grid}>

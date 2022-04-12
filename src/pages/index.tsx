@@ -1,7 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
-import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
@@ -24,15 +23,6 @@ const Home: NextPage = () => {
         {/* tailwind-daisy area */}
         <div className="-mt-10 text-center">
           <h1 className="text-3xl font-bold underline">Hello Next.js world!!</h1>
-          <h2>
-            <Link href="/about" passHref>
-              <button className="btn btn-primary">Link about</button>
-            </Link>{' '}
-            /{' '}
-            <a href="./about">
-              <button className="btn btn-primary rounded-full">Anker about</button>
-            </a>
-          </h2>
         </div>
 
         <div className={styles.grid}>

@@ -17,7 +17,7 @@
     "build": "next build",
     "start": "next start -p 8080",
     "lint": "next lint",
-    "deploy": "npm run build && gcloud app deploy"
+    "gaedeploy": "npm run build && gcloud app deploy --project proj-next"
   },
   "dependencies": {
     "axios": "^0.26.1",

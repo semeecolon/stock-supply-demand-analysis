@@ -1,5 +1,5 @@
 import type { ReactElement, ReactNode } from 'react';
-import LayoutAbout from '@/layouts/layoutAbout';
+import { LayoutAbout } from '@/components/layouts';
 
 export default function About() {
   return <h1 className="text-3xl font-bold underline">Hello next world!</h1>;

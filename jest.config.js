@@ -12,8 +12,7 @@ const customJestConfig = {
     '^@/pages/(.*)$': '<rootDir>/src/pages/$1',
     '^@/api/(.*)$': '<rootDir>/src/pages/api/$1',
     '^@/components/(.*)$': '<rootDir>/src/components/$1',
-    '^@/layouts/(.*)$': '<rootDir>/src/components/layouts/$1',
-    '^@/styles/(.*)$': '<rootDir>/styles/$1'
+    '^@/styles/(.*)$': '<rootDir>/src/styles/$1'
   },
   // moduleDirectories: ['node_modules', '<rootDir>/'],
   testEnvironment: 'jest-environment-jsdom'

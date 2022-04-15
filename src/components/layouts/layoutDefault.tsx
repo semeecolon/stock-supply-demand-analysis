@@ -1,7 +1,6 @@
 import type { ReactElement, ReactNode } from 'react';
 import Head from 'next/head';
-import MyHeader from '@/components/header';
-import MyFooter from '@/components/footer';
+import { MyHeader, MyFooter } from '@/components/index';
 
 type Props = {
   children?: ReactElement;

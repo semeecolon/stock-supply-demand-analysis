@@ -20,8 +20,7 @@
       "@/pages/*": ["src/pages/*"],
       "@/api/*": ["src/pages/api/*"],
       "@/components/*": ["src/components/*"],
-      "@/layouts/*": ["src/components/layouts/*"],
-      "@/styles/*": ["styles/*"]
+      "@/styles/*": ["src/styles/*"]
       // "@/lib/*": ["src/lib/*"]
 		}
     // "typeRoots": ["./node_modules/@types, ./@types"],

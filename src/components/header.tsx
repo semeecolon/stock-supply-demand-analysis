@@ -16,11 +16,13 @@ export default function MyHeader() {
       <div className="text-center text-5xl text-blue-400">This is header area</div>
       <div className="flex flex-row justify-center">
         <div className="">
-          <Link href="/" passHref>
+          <Link href="/">
             <button className="btn btn-primary">Home</button>
           </Link>{' '}
-          <Link href="/about" passHref>
-            <button className="btn btn-success">About</button>
+          <Link href="/about">
+            <button className="btn btn-success">
+              <a>About</a>
+            </button>
           </Link>{' '}
           /{' '}
           <a href="./about">

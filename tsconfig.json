@@ -17,12 +17,14 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/pages/*": ["src/pages/*"],
-      "@/api/*": ["src/pages/api/*"],
       "@/components/*": ["src/components/*"],
-      "@/styles/*": ["src/styles/*"]
+      "@/services/*": ["src/services/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/api/*": ["src/pages/api/*"]
       // "@/lib/*": ["src/lib/*"]
-		}
+    }
     // "typeRoots": ["./node_modules/@types, ./@types"],
     // "declaration": true,
     // "declarationDir": "./@types"

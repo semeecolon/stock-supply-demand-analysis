@@ -18,9 +18,9 @@
   "extends": [
     "eslint:recommended",
     // "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/recommended",
     "next",
     "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
     // "prettier/@typescript-eslint",  //eslint-config-prettier(disable eslint typescript formatting conflict with prettier)
     // "plugin:prettier/recommended"   //eslint-plugin-prettier(eslint formatting using prettier)
     "prettier"

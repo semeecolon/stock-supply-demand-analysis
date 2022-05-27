@@ -1,9 +1,7 @@
-const { config } = require('process');
-
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {}
+    extend: {},
   },
 
   // add daisyUI plugin
@@ -17,6 +15,6 @@ module.exports = {
     logs: true,
     rtl: false,
     prefix: '',
-    darkTheme: 'dark'
-  }
+    darkTheme: 'dark',
+  },
 };
